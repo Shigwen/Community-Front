@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="custom_style/style.css">
+	<!-- Scripts -->
+	<script defer src="js/jquery-3.6.0.min.js"></script>
+	<script defer src="js/bootstrap.bundle.js"></script>
+
+	<!-- Title -->
+	<title>World of Warcraft Community Project</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+			<a class="navbar-brand bg-primary rounded-pill pl-3 pr-3" href="#">Community Project</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active border border-primary">
+						<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./profile.html">Profile</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./calendar.html">Calendar</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./about-us.html">About us</a>
+					</li>
+					<!-- <li class="nav-item border border-primary">
+						<a class="nav-link" href="#">Contact me</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="#">Legal mentions</a>
+					</li> -->
+				</ul>
+			</div>
+		</nav>
+
+		<ragnaros-animation class="container d-flex justify-content-center bg-dark position-static">
+
+			<video class="container" src="./assets/video/background.mp4" autoplay muted loop></video>
+			<img class="container" src="./assets/image/jpg/backgrounds/stormwind.jpg"
+				alt="Stormwind, human capital city in World of Warcraft">
+
+			<page-title class="align-self-center p-0">
+				<span>
+					Welcome to Diana's
+				</span>
+				<h1>Community Project</h1>
+			</page-title>
+
+		</ragnaros-animation>
+	</header>
+
+	<main class="container bg-dark">
+		<div class="row d-flex justify-content-around">
+
+			<div class="col-12 col-md-11 p-4 border border-primary rounded col-padding">
+				<p>
+					Welcome ! The mail adress you are currently using is test@hotmail.com.
+					If you wish to change it, click here :
+				</p>
+
+				<div class="d-flex justify-content-center mt-4">
+					<button type="submit" class="btn btn-primary rounded-pill btn-lg">Change Email</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row d-flex justify-content-around">
+
+			<div class="col-12 col-md-11 p-md-4 p-xs-1 border border-primary rounded col-padding">
+
+				<h2 class="text-center h3">Character list</h2>
+				<table class="table table-striped table-bordered table-hover table-dark">
+					<thead class="text-center">
+						<tr>
+							<th scope="col">Name</th>
+							<th scope="col">Server</th>
+							<th scope="col">Class</th>
+							<th scope="col" class="d-none d-md-table-cell">Role</th>
+							<th scope="col" class="d-none d-md-table-cell">Notes</th>
+							<th scope="col"></th>
+						</tr>
+					</thead>
+
+					<tbody class="text-center ">
+						<tr>
+							<td>Artemis</td>
+							<td>Hydraxian Waterlords TBC</td>
+							<td>Mage</td>
+							<td class="d-none d-md-table-cell">DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>Diana</td>
+							<td>Hydraxian Waterlords TBC</td>
+							<td>Warrior</td>
+							<td class="d-none d-md-table-cell">Tank, DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>Nathalia</td>
+							<td>Hydraxian Waterlords TBC</td>
+							<td>Druide</td>
+							<td class="d-none d-md-table-cell">Tank, Heal, DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>Haynar</td>
+							<td>Hydraxian Waterlords TBC</td>
+							<td>Prêtre</td>
+							<td class="d-none d-md-table-cell">Heal</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-around">
+			<form class="col-12 col-md-11 border border-primary rounded col-padding pb-4">
+				<fieldset class="form-group row d-flex justify-content-around">
+					<legend class="text-center h4">Add Character (max 10):</legend>
+
+					<div class="col-lg-5 col-md-11">
+						<label for="exampleInputEmail1">Name</label>
+						<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					</div>
+
+					<div class="col-lg-5 col-md-11">
+						<label for="exampleInputEmail1">Server</label>
+						<select class="custom-select">
+							<option selected>Choose a server</option>
+							<option value="1">TBC Hydraxian Waterlords</option>
+						</select>
+					</div>
+
+					<div class="col-lg-5 col-md-11">
+						<label for="exampleInputEmail1">Class</label>
+						<select class="custom-select">
+							<option selected>Choose a class</option>
+							<option value="1">Druid</option>
+							<option value="2">Hunter</option>
+							<option value="3">Mage</option>
+							<option value="4">Paladin</option>
+							<option value="5">Priest</option>
+							<option value="6">Rogue</option>
+							<option value="7">Shaman</option>
+							<option value="8">Warlock</option>
+							<option value="9">Warrior</option>
+							</select>
+					</div>
+					<div class="col-lg-5 col-md-11">
+						<label for="">Roles (you can AND accept to play if asked to)</label>
+
+						<div class="form-row justify-content-around">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" name="exampleCheckbox" id="exampleCheckboxs1" value="option1" checked>
+								<label class="form-check-label" for="exampleCheckboxs1">
+									Tank
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" name="exampleCheckboxs" id="exampleCheckboxs2" value="option2">
+								<label class="form-check-label" for="exampleCheckboxs2">
+									Heal
+								</label>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" name="exampleCheckboxs" id="exampleCheckboxs3" value="option3">
+								<label class="form-check-label" for="exampleCheckboxs3">
+									DPS
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-11">
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Character notes (anything relevant you'd like to show to the raid leaders)</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+					</div>
+				</fieldset>
+
+				<div class="d-flex justify-content-center mt-4">
+					<button type="submit" class="btn btn-primary rounded-pill btn-lg">Submit</button>
+				</div>
+			</form>
+		</div>
+
+		<div class="row d-flex justify-content-around">
+
+			<div class="col-12 col-md-11 p-md-4 p-xs-1 border border-primary rounded col-padding">
+				<h2 class="text-center h3">Raid schedule</h2>
+				<table class="table table-striped table-bordered table-hover table-dark">
+					<thead class="text-center">
+						<tr>
+							<th scope="col">Event</th>
+							<th scope="col">Date</th>
+							<th scope="col">As</th>
+							<th scope="col" class="d-none d-md-table-cell">Role</th>
+							<th scope="col" class="d-none d-md-table-cell">Notes</th>
+							<th scope="col"></th>
+						</tr>
+					</thead>
+
+					<tbody class="text-center">
+						<tr>
+							<td>Saturday Night Fever <br>by <span class="text-success">Travolta</span></td>
+							<td>19/04/21<br>19h30 - 23h</td>
+							<td>Artemis</td>
+							<td class="d-none d-md-table-cell">DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>Karazhan Evening Madness <br>by <span class="text-success">MyLittlePony</span></td>
+							<td>19/04/21<br>19h30 - 23h</td>
+							<td>Diana</td>
+							<td class="d-none d-md-table-cell">Tank, DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>I hate fridays <br>by <span class="text-success">ILoveWeekends</span></td>
+							<td>19/04/21<br>19h30 - 23h</td>
+							<td>Xanjori</td>
+							<td class="d-none d-md-table-cell">Tank, Heal, DPS</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+						<tr>
+							<td>We have shamans too now ! <br>by <span class="text-success">AllianceLover</span></td>
+							<td>19/04/21<br>19h30 - 23h</td>
+							<td>Alexandross</td>
+							<td class="d-none d-md-table-cell">Heal</td>
+							<td class="d-none d-md-table-cell">!</td>
+							<td>! ! ! ! ! !</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

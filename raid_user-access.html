@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="custom_style/style.css">
+	<!-- Scripts -->
+	<script defer src="js/jquery-3.6.0.min.js"></script>
+	<script defer src="js/bootstrap.bundle.js"></script>
+
+	<!-- Title -->
+	<title>World of Warcraft Community Project</title>
+</head>
+
+<body class="index">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+			<a class="navbar-brand bg-primary rounded-pill pl-3 pr-3" href="#">Community Project</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active border border-primary">
+						<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./profile.html">Profile</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./calendar.html">Calendar</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./rl-corner.html">Calendar</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="./about-us.html">About us</a>
+					</li>
+					<!-- <li class="nav-item border border-primary">
+						<a class="nav-link" href="#">Contact me</a>
+					</li>
+					<li class="nav-item border border-primary">
+						<a class="nav-link" href="#">Legal mentions</a>
+					</li> -->
+				</ul>
+			</div>
+		</nav>
+
+		<ragnaros-animation class="container d-flex justify-content-center bg-dark position-static">
+
+			<video class="container" src="./assets/video/background.mp4" autoplay muted loop></video>
+			<img class="container" src="./assets/image/jpg/backgrounds/stormwind.jpg"
+				alt="Stormwind, human capital city in World of Warcraft">
+
+			<page-title class="align-self-center p-0">
+				<span>
+					Welcome to Diana's
+				</span>
+				<h1>Community Project</h1>
+			</page-title>
+
+		</ragnaros-animation>
+	</header>
+
+	<main class="container bg-dark">
+		<div class="row d-flex justify-content-around">
+			<div class="col-12 col-md-11 p-md-4 p-xs-1 border border-primary rounded col-padding">
+				<h3 class="text-center mb-5">Raid Information</h3>
+
+				<div class="row d-flex justify-content-around mb-4">
+					<div class="col-lg-5 col-md-11 text-center d-flex flex-column">
+						<span class="h5">Name :</span>
+						<span class="h4 text-success mt-0 mb-3">ToT Wednesday Karazhan Madness</span>
+					</div>
+
+					<div class="col-lg-5 col-md-11 text-center d-flex flex-column">
+
+						<span class="h5">Raid type :</span>
+
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+							<label class="btn btn-primary">
+								10
+								<input type="radio" name="raid-type" id="raid-type_10" autocomplete="off">
+							</label>
+							<label class="btn btn-primary active">
+								25
+								<input type="radio" name="raid-type" id="raid-type_25" autocomplete="off" checked="">
+							</label>
+							<label class="btn btn-primary">
+								40
+								<input type="radio" name="raid-type" id="raid-type_40" autocomplete="off">
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="row d-flex justify-content-around d-flex align-items-center mb-3">
+					<div class="col-lg-5 col-md-11 text-center d-flex flex-column">
+						<span class="h5">Raid leader :</span>
+						<span class="h4 text-success mt-0 mb-3">Alexandross</span>
+					</div>
+
+					<div class="col-lg-5 col-md-11 text-center d-flex flex-column">
+						<span class="h5">Date :</span>
+						<span class="h5 text-success mt-0 mb-3">
+							Wednesday 5th May 2021
+							<span class="text-white">// </span>
+							20h - 23h30
+						</span>
+					</div>
+				</div>
+
+				<div class="row d-flex justify-content-around p-2 p-md-4 mt-2 mb-5 ml-5 mr-5 border border-info rounded flex-column">
+					<div class="form-row justify-content-between">
+						<div class="col-8 h5 mb-2 d-flex align-items-center">
+							Min. number of Tanks
+						</div>
+						<div class="col-2 h4 text-success border rounded-pill m-0 mb-2 d-flex align-items-center justify-content-center text-info font-weight-bolder">
+							2
+						</div>
+					</div>
+
+					<div class="form-row justify-content-between">
+						<div class="col-8 h5 mb-2 d-flex align-items-center">
+							Max. number of Tanks
+						</div>
+						<div class="col-2 h4 text-success border rounded-pill m-0 mb-2 d-flex align-items-center justify-content-center text-info font-weight-bold">
+							2
+						</div>
+					</div>
+
+					<div class="form-row justify-content-between">
+						<div class="col-8 h5 mb-2 d-flex align-items-center">
+							Min. number of Healers
+						</div>
+						<div class="col-2 h4 text-success border rounded-pill m-0 mb-2 d-flex align-items-center justify-content-center text-success font-weight-bold">
+							2
+						</div>
+					</div>
+
+					<div class="form-row justify-content-between">
+						<div class="col-8 h5 mb-2 d-flex align-items-center">
+							Max. number of Healers
+						</div>
+						<div class="col-2 h4 text-success border rounded-pill m-0 mb-2 d-flex align-items-center justify-content-center text-success font-weight-bold">
+							3
+						</div>
+					</div>
+
+					<div class="form-row justify-content-around mb-2">
+						<div>
+							<input class="form-check-input" type="checkbox" name="exampleCheckbox" id="exampleCheckboxs1" value="option1" checked>
+							<label class="form-check-label h5" for="exampleCheckboxs1">
+								Auto-accept
+							</label>
+						</div>
+
+						<div>
+							<input class="form-check-input" type="checkbox" name="exampleCheckboxs" id="exampleCheckboxs2" value="option2">
+							<label class="form-check-label h5" for="exampleCheckboxs2">
+								Private raid
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="row d-flex justify-content-around">
+					<div class="col-12 col-md-11">
+						<h4 class="mb-4 text-center">Raid Leader notes</h4>
+						<p class="border rounded p-3 pl-4 pr-4">
+							<u>Raid leading style and goals :</u>
+							<br>
+							My goal is for everyone to enjoy discovering the raid at its own pace.
+							I will take a few minutes before every boss to explain the strategy and
+							make sure everyone understands what has to be done.
+							<br>
+							OR
+							<br>
+							I'll try to gather as many good players as I can so we can speed run this with full mats ! High-parsing players will most likely have more priority in this raid than other lower geared characters.
+							<br><br>
+							<u>Loot rules :</u>
+							<br>
+							Reserved > Main-spec > Main-spec but already got an item > Off-spec.
+							<br>
+							OR
+							<br>
+							We will be using EPGP / Loot council / DKP / etc.
+							<br><br>
+							<u>Mandatory add-ons :</u>
+							<br>
+							DBM, Angry Assignments, and so on...
+							<br><br>
+							<u>...Anything else you might think is important to mention :</u>
+							<br>
+							Strategies will never be debated during the raid, no matter how much one might think he knows better.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row d-flex justify-content-around d-flex align-items-center mb-3">
+			<form class="col-12 col-md-11 p-md-4 p-xs-1 border border-primary rounded col-padding d-flex flex-row">
+				<div class="form-group col-md-8">
+					<select class="custom-select">
+						<option selected>Choose a character</option>
+						<option value="1">Travolta</option>
+						<option value="2">MyLittlePony</option>
+						<option value="3">ILoveWeekends</option>
+						<option value="4">AllianceLover</option>
+					</select>
+				</div>
+
+				<div class="col-md-3">
+					<button type="submit" class="btn btn-primary rounded-pill btn-lg">Subscribe</button>
+				</div>
+			</form>
+		</div>
+	</main>
+</body>
+
+</html>
